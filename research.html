@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research</title>
-    <!-- Link to your shared styles.css file -->
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research | Yuyan Wang</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
@@ -13,36 +12,61 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="resume.html">Resume</a></li>
-                <li><a href="research.html">Research</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>My Research</h1>
-        
-        <section>
-            <h2>Research Project 1: [Project Title]</h2>
-            <p>Brief summary of the project. Mention the goals, methodology, and key findings.</p>
-            <ul>
-                <li>**Publications:** [Link to publication 1]</li>
-                <li>**Code:** [Link to GitHub repository for code]</li>
+
+    <main class="container">
+        <h1>Research</h1>
+        <p class="intro-text">My work focuses on robotics, autonomy, reinforcement learning, and human-AI collaboration. Below is a curated selection of ongoing and past research projects.</p>
+
+        <!-- PROJECT CARD 1 -->
+        <section class="project-card">
+            <h2>Physically Grounded Human-AI Collaboration</h2>
+            <p>
+                Working in Professor Yen-Ling Kuo's lab, I develop confidence-based reinforcement learning frameworks
+                to improve long-horizon human-AI task collaboration. My work includes designing confidence metrics,
+                multi-modal feedback integration, and evaluating policies on real-world, physically grounded tasks.
+            </p>
+            <ul class="project-links">
+                <li><a href="#">Publication (coming soon)</a></li>
+                <li><a href="#">Code Repository</a></li>
             </ul>
         </section>
 
-        <section>
-            <h2>Research Project 2: [Project Title]</h2>
-            <p>Brief summary of the second project. Provide an overview and your contributions.</p>
-            <ul>
-                <li>**Publications:** [Link to publication 2]</li>
-                <li>**Code:** [Link to GitHub repository for code]</li>
+        <!-- PROJECT CARD 2 -->
+        <section class="project-card">
+            <h2>Teleoperation & Shared Autonomy for Franka Emika Panda</h2>
+            <p>
+                I developed VR-based and Spacemouse-based teleoperation pipelines, enabling precise pose control,
+                dynamic grasping, and shared autonomy behaviors. This work supports physically grounded collaboration
+                experiments and improves the robot's adaptability to human corrections.
+            </p>
+            <ul class="project-links">
+                <li><a href="#">Demo Video</a></li>
+                <li><a href="#">GitHub Code</a></li>
             </ul>
         </section>
 
-        <section>
+        <!-- PROJECT CARD 3 -->
+        <section class="project-card">
+            <h2>NASA Lunabotics Challenge — Autonomous Excavation & Navigation</h2>
+            <p>
+                As part of the MARS Robotics Team, I implemented excavation and dumping autonomy, teleoperation tools,
+                and SLAM components for our lunar regolith mining robot. Our team placed 5th nationally in 2025.
+            </p>
+            <ul class="project-links">
+                <li><a href="#">Subsystem Documentation</a></li>
+                <li><a href="#">Competition Summary</a></li>
+            </ul>
+        </section>
+
+        <!-- PUBLICATIONS SECTION -->
+        <section class="publications-section">
             <h2>Publications</h2>
-            <ul>
-                <li>[Your Name], et al. "Title of Paper." *Journal Name*, Year. [Link]</li>
-                <li>[Your Name], et al. "Title of Another Paper." *Conference Proceedings*, Year. [Link]</li>
+            <ul class="pub-list">
+                <li>No publications yet — several manuscripts in progress.</li>
             </ul>
         </section>
 
