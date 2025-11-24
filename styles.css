@@ -1,23 +1,23 @@
 /* =============================
-   Global Styling
+   Pastel Aesthetic Global Styling
    ============================= */
-   body {
+body {
     font-family: "Inter", Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.7;
-    background-color: #f7f7f9;
-    color: #333;
+    background: linear-gradient(135deg, #fdfbfb, #f3e7e9);
+    color: #4a4a4a;
 }
 
 /* =============================
    Header / Navigation
    ============================= */
 header {
-    background: #1e1e2f;
+    background: #b388ff;
     color: white;
     padding: 1rem 0;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.15);
 }
 
 header nav ul {
@@ -37,12 +37,12 @@ header nav ul li a {
     text-decoration: none;
     font-weight: 600;
     padding: 6px 4px;
-    transition: 0.2s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 header nav ul li a:hover,
 header nav ul li a.active {
-    border-bottom: 2px solid #9acaff;
+    border-bottom: 2px solid #ffe0ff;
 }
 
 /* =============================
@@ -57,34 +57,36 @@ header nav ul li a.active {
 h1 {
     font-size: 2.4rem;
     margin-bottom: 10px;
-    color: #1e1e2f;
+    color: #6a1b9a;
 }
 
 h2 {
     margin-top: 25px;
-    color: #263859;
+    color: #8e24aa;
 }
 
 .intro-text {
     font-size: 1.1rem;
-    color: #555;
+    color: #6d6d6d;
 }
 
 /* =============================
-   Project Cards (Research Page)
+   Project Cards
    ============================= */
 .project-card {
-    background: white;
+    background: #ffffffaa;
+    backdrop-filter: blur(10px);
     padding: 20px;
     margin: 25px 0;
-    border-radius: 12px;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.08);
-    transition: 0.25s ease-in-out;
+    border-radius: 14px;
+    border: 1px solid #f3e7e9;
+    box-shadow: 0px 4px 14px rgba(0,0,0,0.08);
+    transition: 0.3s ease-in-out;
 }
 
 .project-card:hover {
-    box-shadow: 0px 4px 16px rgba(0,0,0,0.15);
-    transform: translateY(-3px);
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.12);
+    transform: translateY(-4px);
 }
 
 .project-links {
@@ -93,9 +95,10 @@ h2 {
 }
 
 .project-links li a {
-    color: #0066cc;
+    color: #ab47bc;
     text-decoration: none;
     font-weight: 500;
+    transition: 0.2s;
 }
 
 .project-links li a:hover {
@@ -107,7 +110,7 @@ h2 {
    ============================= */
 .pub-list li {
     margin: 8px 0;
-    color: #444;
+    color: #5a5a5a;
 }
 
 /* =============================
@@ -119,19 +122,19 @@ h2 {
 }
 
 .resume-button {
-    background-color: #1e88e5;
+    background-color: #ce93d8;
     color: white;
     padding: 12px 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 1.1rem;
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
-    transition: background 0.2s ease-in-out;
+    transition: background 0.25s ease-in-out;
 }
 
 .resume-button:hover {
-    background-color: #166ec0;
+    background-color: #b573c4;
 }
 
 /* =============================
@@ -144,17 +147,16 @@ h2 {
     object-fit: cover;
     display: block;
     margin: 0 auto 20px auto;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
 }
 
 /* =============================
-   Footer (optional for later)
+   Footer
    ============================= */
 footer {
     margin-top: 60px;
     padding: 20px;
     text-align: center;
-    background: #1e1e2f;
+    background: #b388ff;
     color: white;
 }
-
