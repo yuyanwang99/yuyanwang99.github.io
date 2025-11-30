@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-</nav>
-</header>
-
-
-<main class="container">
-<h1>Research</h1>
-<p class="intro-text">My work focuses on robotics, autonomy, reinforcement learning, and human-AI collaboration. Below is a curated selection of ongoing and past research projects.</p></title>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resume | Yuyan Wang</title>
 <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 <header>
 <nav>
@@ -21,52 +20,68 @@
 
 
 <main class="container">
-<h1>Research</h1>
-<p class="intro-text">My work focuses on robotics, autonomy, reinforcement learning, and human-AI collaboration. Below is a curated selection of ongoing and past research projects.</p>
+<h1>Research and Projects</h1>
+<p class="intro-text">My work spans over Robotics, reinforcement learning, human-AI collaboration, and data science. Below is a curated selection of ongoing and past research projects.</p></title>
 
 
 <section class="project-card">
 <h2>Physically Grounded Human-AI Collaboration</h2>
 <p>
-Working in Professor Yen-Ling Kuo's lab, I develop confidence-based reinforcement learning frameworks to improve long-horizon human-AI task collaboration. My work includes designing confidence metrics, multi-modal feedback integration, and evaluating policies on real-world, physically grounded tasks.
+Working in Professor Yen-Ling Kuo's lab, I contributed to the Physically Grounded Human-AI Collaboration project, a submission to the ICLR 2026 conference that focused on developing embodied agents that adapt their actions to physical dynamics and human interactions. 
 </p>
 <ul class="project-links">
-<li><a href="#">Publication (coming soon)</a></li>
-<li><a href="#">Code Repository</a></li>
+<li><a href="https://arxiv.org/abs/2507.18623">Publication (under review)</a></li>
+<li><a href="https://live-robotics-uva.github.io/movingout_ai/">Git Repository</a></li>
 </ul>
 </section>
 
 
 <section class="project-card">
-<h2>Teleoperation & Shared Autonomy for Franka Emika Panda</h2>
-<p>
-I developed VR-based and Spacemouse-based teleoperation pipelines, enabling precise pose control, dynamic grasping, and shared autonomy behaviors. This work supports physically grounded collaboration experiments and improves the robot's adaptability to human corrections.
-</p>
-<ul class="project-links">
-<li><a href="#">Demo Video</a></li>
-<li><a href="#">GitHub Code</a></li>
-</ul>
+    <h2>A Case Study on LLM-Guided Reinforcement Learning for Decentralized Autonomous Driving</h2>
+    <p>
+        In the course Multi-Robot Navigation, I worked in a group and investigated how reinforcement learning, combined with locally deployable language models, shapes decentralized autonomous driving policies. This was a case study submitted to ICRA 2026.  
+    </p>
+    <ul class="project-links">
+    <li><a href="#">Publication (coming soon)</a></li>
+    <li><a href="https://github.com/Yuyannnnw/LLM-RL-NAV">Git Repository</a></li>
+    </ul>
 </section>
 
 
 <section class="project-card">
-<h2>NASA Lunabotics Challenge — Autonomous Excavation & Navigation</h2>
-<p>
-As part of the MARS Robotics Team, I implemented excavation and dumping autonomy, teleoperation tools, and SLAM components for our lunar regolith mining robot. Our team placed 5th nationally in 2025.
-</p>
-<ul class="project-links">
-<li><a href="#">Subsystem Documentation</a></li>
-<li><a href="#">Competition Summary</a></li>
-</ul>
+    <h2>UVA MARS Club - NASA Lunabotics Challenge</h2>
+    <p>
+    Our team placed 5th among 68 universities in the final round in 2025. I directly contributed to enhancing the teleoperation process between the Jetson and the control station, as well as creating programs that enable autonomous excavation and dumping. I am currently researching and integrating SLAM and path planning using NAV2 with ROS2, tackling one of the most challenging problems in travel autonomy on regolith. 
+    </p>
+    <ul class="project-links">
+    <li><a href="https://marsatuva.org/">MARS Website</a></li>
+    <li><a href="https://www.nasa.gov/centers-and-facilities/kennedy/future-engineers-shine-at-nasas-2025-lunabotics-robotics-competition/">Competition Summary</a></li>
+    </ul>
 </section>
 
 
-<section class="publications-section">
+<section class="project-card">
+    <h2>Observational Learning in Electric Vehicle Adoption</h2>
+    <p>
+    Working with Professor Daisy Dai (Purdue University) and Natasha Zhang Foutz (UVA), I processed and analyzed large-scale mobile location data (X-Mode Social) and applied clustering algorithms (ex. Infostop, DBSCAN in scikit-learn) to identify visibility patterns of EV charging stations. 
+    </p>
+</section>
+
+
+<section class="project-card">
+<h2>Teleoperation for Franka Emika Panda</h2>
+<p>
+Working in Professor Yen-Ling Kuo's lab, I implemented teleoperation of the Franka robot arm using a Meta Quest VR controller and space mouse for diverse manipulation tasks in both physical and simulated (Panda) environments through ROS2. This work supports 2–3 ongoing projects in the lab, facilitating efficient and consistent experimentation across multiple research directions.
+</p>
+</section>
+
+
+<!-- <section class="publications-section">
 <h2>Publications</h2>
-<ul class="pub-list">
+<ul class="award-list">
 <li>No publications yet — several manuscripts in progress.</li>
 </ul>
-</section>
+</section> -->
 </main>
 </body>
 </html>
