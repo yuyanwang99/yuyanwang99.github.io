@@ -1,83 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yuyan Wang | Home</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yuyan Wang's personal homepage and research portfolio in robotics, embodied AI, and multimodal learning.">
+  <title>Yuyan Wang | Robotics & Embodied AI</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="index.html" class="active">Home</a></li>
-<li><a href="research.html">Research</a></li>
-<!-- <li><a href="resume.html">Resume</a></li> -->
-</ul>
-</nav>
-</header>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="site-name" href="#home">Yuyan Wang</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#research">Research</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section id="home" class="content-width page-section section-anchor">
+      <h2>About Me</h2>
+      <div class="about-layout">
+        <img class="profile-image" src="file/pic1.JPG" alt="Portrait of Yuyan Wang">
 
-<main class="container">
-<section style="max-width: 800px; margin: auto; text-align: center;">
-<h1>Hi, I'm <span style="color:#8e24aa;">Yuyan Wang</span></h1>
-<p class="intro-text">
-University of Pennsylvania · Computer Science<br>
-Robotics · Embodied AI · Multimodal Learning
-</p>
-</section>
+        <div class="about-content">
+          <p>
+            I’m a Master's student at the University of Pennsylvania, with a Bachelor's degree from the University of Virginia. My experience spans whole-body control of humanoid robots, VLA post-training and deployment, autonomous navigation and motion, and LLM-guided reinforcement learning.
+          </p>
+          <p>
+            I am deeply interested in model deployment, decision learning, and human-robot collaboration within Embodied Intelligence. I focus on enabling intelligent agents to perform long-term planning and develop perception-reasoning-action capabilities in real physical environments. My research explores combining VLA models and world models with whole-body robot control to build embodied systems that understand high-level semantic goals and execute low-level motion control.
+          </p>
 
-
-<section style="max-width: 850px; margin: 40px auto;">
-    <h2>About Me</h2>
-    <div style="display: flex; align-items: flex-start; gap: 20px;">
-        <img src="file/pic1.JPG" alt=" " style="width:250px; height:auto; border-radius: 8px;">
-
-        <div>
-            <p>
-                I’m a Master's student at the University of Pennsylvania, with Bachelor's degree at University of Virginia. My experience spans whole-body control of humanoid robots, VLA post-training and deployment, autonomous navigation and motion, and LLM-guided RL.
-            </p>
-            <p>
-                I am deeply interested in model deployment, decision learning, and human-robot collaboration within the field of Embodied Intelligence, focusing on how to enable intelligent agents to perform long-term planning and possess perception-reasoning-action capabilities in real physical environments. My research focuses on combining VLA Models and World Models with whole-body robot control to construct embodied systems capable of understanding high-level semantic goals and performing low-level motion control.
-            </p>
+          <div class="quick-links" aria-label="Quick links">
+            <h3>Quick Links</h3>
+            <div class="link-row">
+              <a href="https://scholar.google.com/citations?user=ZV2Hs8EAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <a href="https://www.linkedin.com/in/yuyan-wang-561852251/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/Yuyannnnw" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="/file/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume PDF</a>
+              <a href="mailto:wangyy99@engineering.upenn.edu">Email</a></li>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
+    <section id="news" class="content-width page-section section-anchor">
+      <h2>News</h2>
+      <div class="news-list">
+        <p><time datetime="2026-06">[Jul 2026]</time> Joined BXI Robotics as an Algorithm R&amp;D Intern, working on VLA deployment, whole-body control, and robot data generation for the Elf3 humanoid robot.</p>
+        <p><time datetime="2026-05">[May 2026]</time> Our UVA MARS team placed first and won the Off World Grand Prize in NASA's 2026 Lunabotics Challenge.</p>
+        <p><time datetime="2026-04">[Apr 2026]</time> “Moving Out: Physically Grounded Human-AI Collaboration” was accepted to ICML 2026.</p>
+        <p><time datetime="2026-01">[May 2026]</time> “Are LLMs The Way Forward? A Case Study on LLM-Guided Reinforcement Learning for Decentralized Autonomous Driving” was accepted to ICRA 2026.</p>
+      </div>
+    </section>
 
-<!-- <section style="max-width: 850px; margin: 40px auto;">
-<h2>What I’m Working On</h2>
-<ul>
-<li>Teleoperation and shared autonomy for the Franka robotic arm</li>
-<li>Human-AI collaboration models for long-horizon tasks</li>
-<li>Multi-robot navigation and real-time decision making</li>
-<li>UVA MARS NASA Lunabotics robotics system development</li>
-</ul>
-</section> -->
-    
-<section style="max-width: 850px; margin: 40px auto;">
-    <h2>Resume</h2>
-    <p>You can view or download my full resume below:</p>
-    <div class="resume-download-box">
-        <a class="resume-button" href="/file/Resume.pdf" target="_blank">📄 View / Download Resume (PDF)</a>
-    </div>
-    <p style="margin-top:20px; font-size:0.95rem; color:#6d6d6d;">
-        If the PDF does not open in a new tab, you may need to allow pop‑ups or download it directly.
-    </p>
-</section>
+    <section id="research" class="content-width page-section section-anchor">
+      <div class="section-heading">
+        <h2>Research</h2>
+        <p>My work spans robotics, vision-language-action models, human-AI collaboration, and reinforcement learning.</p>
+      </div>
 
-<section style="max-width: 850px; margin: 40px auto;">
-<h2>Quick Links</h2>
-<ul>
-    <!-- <li><a href="resume.html">Resume</a></li> -->
-    <li><a href="research.html">Research</a></li>
-    <li><a href="https://scholar.google.com/citations?user=ZV2Hs8EAAAAJ&hl=en&oi=sra">Google Scholar</a></li>
-    <li><a href="https://www.linkedin.com/in/yuyan-wang-561852251/">LinkedIn</a></li>
-    <li><a href="https://github.com/Yuyannnnw">GitHub</a></li>
-</ul>
-</section>
-</main>
+      <article class="project-card">
+        <div class="project-media">
+          <img src="file/pic5.JPG" alt="Elf3 humanoid robot">
+        </div>
+        <div class="project-content">
+          <h3>Deployment of VLA + SONIC Framework on Elf3 Humanoid Robot</h3>
+          <p>
+            Working as an Algorithm R&amp;D Intern at BXI Robotics, I train and deploy NVIDIA SONIC whole-body control and Mayi LingBot-VLA models on the Elf3 humanoid robot. I am also building a VLA + SONIC framework for robot manipulation and researching robot data generation with NVIDIA DreamGen.
+          </p>
+          <div class="project-links">
+            <a href="https://www.bxirobotics.cn/en/blog/elf3-humanoid-robot-specifications" target="_blank" rel="noopener noreferrer">Elf3 Robot</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media">
+          <img src="file/pic3.png" alt="Moving Out human-AI collaboration project">
+        </div>
+        <div class="project-content">
+          <h3>Moving Out: Physically Grounded Human-AI Collaboration (ICML 2026)</h3>
+          <p>
+            Working in Professor Yen-Ling Kuo's lab, I contributed to a project developing embodied agents that adapt their actions to physical dynamics and human interactions.
+          </p>
+          <div class="project-links">
+            <a href="https://live-robotics-uva.github.io/movingout_ai/" target="_blank" rel="noopener noreferrer">Project Website</a>
+            <a href="https://arxiv.org/abs/2507.18623" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media">
+          <img src="file/pic4.png" alt="Autonomous driving reinforcement learning project">
+        </div>
+        <div class="project-content">
+          <h3>Are LLMs The Way Forward? LLM-Guided RL for Decentralized Autonomous Driving (ICRA 2026)</h3>
+          <p>
+            In the Multi-Robot Navigation course, I investigated how reinforcement learning combined with locally deployable language models shapes decentralized autonomous-driving policies. This paper was accepted to ICRA 2026.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Yuyannnnw/LLM-RL-NAV" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://arxiv.org/abs/2511.12751" target="_blank" rel="noopener noreferrer">Paper</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media">
+          <img src="file/pic2.JPG" alt="UVA MARS Lunabotics robot">
+        </div>
+        <div class="project-content">
+          <h3>UVA MARS Club — NASA Lunabotics Challenge</h3>
+          <p>
+            Our team placed first and won the Off World Grand Prize among more than 60 universities in 2026. I contributed to teleoperation between the Jetson and control station, autonomous excavation and dumping, and SLAM and path planning with NAV2 and ROS2 for travel autonomy on regolith.
+          </p>
+          <div class="project-links">
+            <a href="https://marsatuva.org/" target="_blank" rel="noopener noreferrer">MARS Website</a>
+            <a href="https://www.nasa.gov/centers-and-facilities/kennedy/nasas-2026-lunabotics-winning-student-teams-engineering-lunar-future/" target="_blank" rel="noopener noreferrer">NASA 2026</a>
+            <a href="https://www.nasa.gov/centers-and-facilities/kennedy/future-engineers-shine-at-nasas-2025-lunabotics-robotics-competition/" target="_blank" rel="noopener noreferrer">NASA 2025</a>
+            <a href="https://github.com/MARS-UVA" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card-no-image">
+        <div class="project-content">
+          <h3>Teleoperation for Franka Emika Panda</h3>
+          <p>
+            Working in Professor Yen-Ling Kuo's lab, I implemented teleoperation of the Franka robot arm using a Meta Quest VR controller and SpaceMouse for diverse manipulation tasks in both physical and simulated environments through ROS2. This work supports multiple ongoing projects in the lab.
+          </p>
+        </div>
+      </article>
+
+      <article class="project-card project-card-no-image">
+        <div class="project-content">
+          <h3>MenuMind — Adaptive Dining Recommendations with LLMs and Online Learning</h3>
+          <p>
+            MenuMind is a personalized dining recommendation system that combines a local large language model with an online supervised learning model. It generates recommendations that adapt to a user's preferences over time, using UVA's Observatory Hill Dining Room as a real-world case study.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/Yuyannnnw/MenuMind" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/Yuyannnnw/MenuMind/blob/main/docs/MenuMind_Report.pdf" target="_blank" rel="noopener noreferrer">Report</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card-no-image">
+        <div class="project-content">
+          <h3>Observational Learning in Electric Vehicle Adoption</h3>
+          <p>
+            Working with Professor Daisy Dai and Professor Natasha Zhang Foutz, I processed and analyzed large-scale mobile location data and applied clustering algorithms, including Infostop and DBSCAN, to identify visibility patterns around EV charging stations.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Yuyan Wang</p>
+  </footer>
+
+  <script>
+    const sections = document.querySelectorAll('.section-anchor');
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach((link) => link.classList.remove('active'));
+
+        const current = entry.target.id;
+        const matchingLink = document.querySelector(`.nav-links a[href="#${current}"]`);
+        if (matchingLink) matchingLink.classList.add('active');
+        else if (current === 'about' || current === 'news') {
+          document.querySelector('.nav-links a[href="#home"]')?.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-35% 0px -55% 0px' });
+
+    sections.forEach((section) => observer.observe(section));
+  </script>
 </body>
 </html>
